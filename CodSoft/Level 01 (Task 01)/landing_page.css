@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+}
+
+/* First navBAr */
+
+nav .navBar_1 {
+    background-color: rgb(47, 131, 83);
+    display: flex;
+}
+
+nav .logo_firstNav,
+.cntct1_firstNav,
+.cntct2_firstNav {
+    color: white;
+    cursor: pointer;
+}
+
+nav .logo_firstNav {
+    margin: 10px;
+    margin-left: 15%;
+    display: flex;
+}
+
+nav .logo1 {
+    margin-right: 10.4%;
+}
+
+nav #vertical-line {
+    height: 25px;
+    display: block;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.31);
+    left: 14.7%;
+    top: 1%;
+}
+
+nav #vertical-line2 {
+    height: 25px;
+    display: block;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.31);
+    ;
+    left: 16.3%;
+    top: 1%;
+}
+
+nav #vertical-line3 {
+    height: 25px;
+    display: block;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.31);
+    ;
+    left: 18.2%;
+    top: 1%;
+}
+
+nav #vertical-line4 {
+    height: 25px;
+    display: block;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.31);
+    ;
+    left: 20%;
+    top: 1%;
+}
+
+nav #vertical-line5 {
+    height: 25px;
+    display: block;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.31);
+    ;
+    left: 21.8%;
+    top: 1%;
+}
+
+nav #vertical-line6 {
+    height: 25px;
+    display: block;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.31);
+    left: 23.7%;
+    top: 1%;
+}
+
+nav #vertical-line7 {
+    height: 25px;
+    display: block;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.456);
+    left: 51.5%;
+    top: 1%;
+}
+
+nav .cntct1_firstNav {
+    margin: 10px;
+    margin-left: 20%;
+    display: inherit;
+    cursor: pointer;
+}
+
+nav .cntct2_firstNav {
+    margin: 10px;
+    margin-left: 1%;
+    display: inherit;
+    cursor: pointer;
+}
+
+nav .labl {
+    padding-left: 4px;
+    cursor: pointer;
+}
+
+nav .btn_firstNav {
+    margin: 10px;
+    margin-left: 12%;
+}
+
+nav .btn_firstNav {
+    background: transparent;
+    cursor: pointer;
+    width: 8%;
+    padding: 8px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-color: #FAEAEB;
+    color: #FAEAEB;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+nav .btn_firstNav:hover {
+    background: white;
+    color: seagreen;
+}
+
+/* Second NavBar */
+.navBar_2 {
+    background-color: white;
+    height: 55px;
+    font-weight: bold;
+}
+
+.navBar_2 .menu {
+    display: flex;
+    float: left;
+}
+
+.navBar_2 .menu .logo {
+    display: flex;
+    margin-left: 17%;
+    padding: 11px;
+}
+
+.navBar_2 .menu .logo_img {
+    width: 9%;
+}
+
+
+.navBar_2 .menu .menu_2 {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-right: 25%;
+    margin-top: 1.5%;
+}
+
+.navBar_2 .menu .list {
+    margin-left: 15%;
+    cursor: pointer;
+}
+
+.navBar_2 .menu .btn_search {
+    margin-right: -15%;
+    background-color: seagreen;
+    border-radius: 25%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-color: seagreen;
+    cursor: pointer;
+}
+
+.navBar_2 .menu .btn_search:hover {
+    background: white;
+    color: seagreen;
+}
+
+.navBar_2 .menu #buyNow {
+    background-color: seagreen;
+    padding: 2%;
+    margin-top: -5.1%;
+}
+
+/* main_Image */
+
+.main_Imge {
+    margin-bottom: -1%;
+}
+
+.main_Imge img {
+    max-width: 100%;
+    height: auto;
+    opacity: 100%;
+}
+
+.main_Imge .main_text {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    width: 45%;
+    padding: 40px 0;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-weight: bold;
+}
+
+.main_Imge .main_text button {
+    margin: 1%;
+    padding: 1%;
+    cursor: pointer;
+    background-color: seagreen;
+    border-color: seagreen;
+    color: white;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.main_Imge .main_text button:hover {
+    background: white;
+    color: seagreen;
+}
+
+/* info_Bar */
+
+.info_Bar {
+    background-color: seagreen;
+    color: white;
+    display: flex;
+    height: 200px;
+}
+
+.info_Bar .support {
+    display: flex;
+    margin: 5%;
+    margin-left: 6%;
+}
+
+.info_Bar .support svg {
+    margin-right: 3%;
+    width: 8%;
+}
+
+.info_Bar .support_txt h4 {
+    text-transform: uppercase;
+}
+
+.info_Bar .support_txt {
+    font-weight: bold;
+}
+
+.info_Bar .support_txt p {
+    margin-top: 2%;
+}
+
+/* AboutUs */
+
+.about_Us {
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    margin-bottom: -2%;
+}
+
+.about_Us .about_txt {
+    margin-right: 20%;
+    margin-left: 11%;
+}
+
+.about_Us .about_txt #About_vline {
+    width: 25%;
+}
+
+.about_Us img {
+    width: 22%;
+    float: right;
+    margin-right: 5%;
+}
+
+.about_Us .about_txt p,
+h3 {
+    margin-top: 2%;
+}
+
+.about_Us .about_txt button {
+    cursor: pointer;
+    margin: 2%;
+    padding: 1.5%;
+    background-color: seagreen;
+    border-color: seagreen;
+    color: white;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.about_Us .about_txt button:hover {
+    background: white;
+    color: seagreen;
+}
+
+
+/* Our Servies */
+
+.our_Services h1 {
+    margin-left: 7%;
+}
+
+.our_Services #services_vline {
+    width: 14%;
+    margin-left: 7%;
+}
+
+
+.our_Services .services_Img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8%;
+    padding-top: 1%;
+}
+
+.our_Services .ourservices_Img img {
+    width: 99%;
+}
+
+.our_Services .ourservices_Img h3 {
+    top: 75%;
+    left: 50%;
+    z-index: 5;
+    width: 96%;
+    padding: 6px 0;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: seagreen;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-bottom: -24%;
+}
+
+/* footer */
+
+.footer {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: seagreen;
+    font-size: large;
+    padding: 1%;
+}
