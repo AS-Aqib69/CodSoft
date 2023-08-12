@@ -20,6 +20,6 @@ opened the road for my growth as a web developer and gave me a solid foundation 
 
 #codsoftinternship #webdevelpoment #codsoft #internship CodSoft
 
-Task 1: Portfolio Completed
+Task 2: Portfolio Completed
 
 I've learnt about responsive web design during this project, ensuring that my portfolio looks excellent on a variety of devices. My experience with debugging issues and cross-browser compatibility has taught me how to troubleshoot and offer a positive user experience. I have a solid foundation in HTML and CSS now that I've worked on this project, and I'm also more aware of web design principles and user-friendly content structure. As I take on additional tasks and investigate cutting-edge technologies, I'm eager to gain new skills and progress as a web developer.
